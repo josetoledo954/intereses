@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <link rel="stylesheet" href="estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="titulo"> caluculo de interes compuesto</h1>
+    <div id="entradas">
+        <div class="contIn">
+            <h3>Ingrese Monto a Depositar</h3>
+            <input id="inpMonto" type="number">
+        </div>
+        
+        <div class="contIn">
+            <h3>Ingrese Cantidad de Meses</h3>
+            <input id="inpMeses" type="number">
+        </div>
+
+        <div class="contIn">
+            <h3>Ingrese Tasa de interes</h3>
+                <select name="" id="inpTasa">
+                    <option id="inpTasaManual" value="">ingresar manualmente</option>
+                    <!-- <option value="">ingresar manualmente</option> -->
+                </select>
+                <input id="inpTasaM" type="number">
+        </div>
+        
+        <div class="contIn">
+            <h3>Ingrese Nombre</h3>
+            <input id="inpNombre" type="text">
+        </div>
+    </div>
+    
+    <div class="contImg">
+
+        <div id="img">
+            <img id="imgPer" src="https://rickandmortyapi.com/api/character/avatar/19.jpeg" alt="">
+            <div>
+                <p id="dialogo">puedes elegir un personaje</p>
+            </div>
+        </div>
+
+        <div>
+            <button id="boton">Calcular</button>
+        </div>
+
+    </div>
+
+    <div class="contBus">
+        <div class="contIn">
+            <h3>Ingrese Busqueda Por Nombre</h3>
+            <input id="inpBuscar" type="text">
+        </div>
+        <button id="botonBuscar">Buscar</button>
+    </div>
+   
+    
+    <div id="mostrarLi">
+        <div id="nombre">
+            
+        </div>
+        <div id="nombLista">
+
+            <h3>mes</h3>
+            <h3>acumulado</h3>
+            <h3>interes</h3>
+        </div>
+        <div id="lista">
+            
+                <div id="mes">0</div>
+            
+                <div id="acumulado">0</div>
+            
+                <div id="interes">0</div>
+
+            
+        </div>
+
+        <div id="mostrar">
+
+        </div>
+
+    </div>
+    
+    <script src="./scripts/intereses.js"></script>
+</body>
+</html>

@@ -1,0 +1,174 @@
+#titulo{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+input{
+    font-size: 1.5rem;
+    margin-bottom: 2em;
+    border-radius: 0.5em;
+}
+
+
+
+#inpTasa{
+    font-size: 1.5rem;
+    margin-bottom: 2em;
+    border-radius: 0.5em;
+}
+
+
+#entradas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(219, 236, 240);
+}
+
+/* #inpTasaManual{
+    visibility: hidden;
+} */
+
+#boton{
+    padding: 10px;
+    font-size: 2rem;
+}
+
+#botonBuscar{
+    padding: 10px;
+    font-size: 2rem;
+}
+
+#mostrarLi{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+    font-size: 1.5rem;
+    border: solid rgb(0, 0, 0) 2px;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+#nombLista{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    /* margin: 20px; */
+    /* border: solid red */
+}
+
+#nombLi div{
+    width: 30%;
+    text-align: center;
+    /* border: solid red; */
+}
+
+#lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    /* margin: 20px; */
+    /* border: solid red; */
+}
+
+#lista div{
+    font-size: 1.5rem;
+    /* text-transform: capitalize; */
+    /* border: solid blue; */
+    width: 100%;
+}
+
+#mes{
+    text-align: center;
+    padding: 20px;
+    align-items: center;
+    background-color: rgb(190, 224, 240);
+}
+
+#mes div{
+    margin-top: 10px;
+    border-bottom: solid 1px rgb(53, 53, 53);
+}
+
+#acumulado{
+    text-align: center;
+    padding: 20px;
+    align-items: center;
+    background-color: rgb(225, 237, 241);
+}
+
+#acumulado div{
+    margin-top: 10px;
+    border-bottom: solid 1px rgb(53, 53, 53);
+}
+
+#interes{
+    text-align: center;
+    padding: 20px;
+    align-items: center;
+    background-color: rgb(190, 224, 240);
+}
+
+#interes div{
+    margin-top: 10px;
+    border-bottom: solid 1px rgb(53, 53, 53);
+}
+
+#nombLista h3{
+    text-align: center;
+    border-bottom: solid 1px rgb(44, 44, 44);
+    /* border: solid red; */
+    width: 100%;
+    margin: 10px;
+
+}
+
+.nombresLista{
+    text-decoration: none;
+}
+
+.contImg{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+#img{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+#img img{
+    border-radius: 50%;
+}
+
+#dialogo{
+    border: solid black;
+    height: auto;
+    font-size: 2rem;
+    border-radius: 20px;
+    background-color: rgb(192, 204, 202);
+    padding: 20px;
+    margin: 20px;
+    /* border-left: 50px solid white ; */
+    /* border-bottom: 50px solid transparent; */
+}
+
+.contBus{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(219, 236, 240);
+
+}
+
+.contBus button{
+    margin: 20px;
+}
