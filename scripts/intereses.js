@@ -88,7 +88,7 @@ function buscar() {
     interesLi.innerHTML = ""
     nombreLi.innerHTML = ""
     img.src = "https://rickandmortyapi.com/api/character/avatar/19.jpeg"
-    dialogo.innerText = `puedes elegir un personaje`
+    dialogo.innerText = `puedes elegir un personaje tambien ingresar la tasa manualmente`
     
     const buscarInp = document.getElementById("inpBuscar")
     const buscar = buscarInp.value
