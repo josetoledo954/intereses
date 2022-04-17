@@ -12,13 +12,13 @@ const nombreInp = document.getElementById("inpNombre")
 
 
 
-// boton de buscar 
+// boton calcular 
 const boton = document.getElementById("boton")
 
 boton.addEventListener("click", calcular)
 
 
-// boton de calcular 
+// boton buscar 
 const botonBuscar = document.getElementById("botonBuscar")
 
 botonBuscar.addEventListener("click", buscar)
